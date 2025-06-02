@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reverse Text</title>
+</head>
+<body>
+    <h1>Enter text to reverse:</h1>
+    <form method="post">
+        <input type="text" name="text">
+        <input type="submit" value="Reverse">
+    </form>
+    {% if reversed_text %}
+        <p>Reversed text: {{ reversed_text }}</p>
+    {% endif %}
+</body>
+</html>
